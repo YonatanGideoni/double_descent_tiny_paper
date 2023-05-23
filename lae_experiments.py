@@ -14,9 +14,9 @@ import wandb
 
 # TODO: Specify these
 dataset_sizes = np.linspace(
-    start=3,
-    stop=21,
-    num=40
+    start=3.5,
+    stop=20,
+    num=80
 )
 dataset_sizes = np.power(2, dataset_sizes)
 dataset_sizes = np.int32(dataset_sizes)
